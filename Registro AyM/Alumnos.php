@@ -7,7 +7,7 @@
 <body bgcolor="Grey">
 	<form method="post">
 		<center><h1>Registro de alumnos.</h1></center>
-<center><h2>Ingrese los datos</h2></center>
+<center><h2>Ingrese los datos del alumno</h2></center>
 
 <p>Nombre: <input type="text" name="ra[Nombre]"required size="40"></p>
 <p>Fecha de nacimiento: <input type="text" name="ra[Fecha]"required size="10"></p>
@@ -19,6 +19,8 @@
 <input type="reset" value="Borrar">
 </form>
 <?php
+  
+  
 include("registroa1.php");
   ?>
 </body>
